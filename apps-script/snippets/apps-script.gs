@@ -1,4 +1,4 @@
-// Sample Apps Script code for printing API response data
+/// Sample Apps Script code for printing API response data
 function printResults(response) {
   var props = ['type', 'title', 'textDisplay', 'channelId', 'videoId', 'hl', 'gl', 'label'];
   for (var r = 0; r < response['items'].length; r++) {
